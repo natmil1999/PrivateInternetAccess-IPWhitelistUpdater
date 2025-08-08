@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name = 'pia_whitelist_updater',
-    version = '0.0.2',
+    version = '0.0.4',
     author = 'Nathan Miller',
     author_email = 'natmil1999@gmail.com',
-    license = '<the license you chose>',
+    license = 'MIT License',
     description = 'A tool to keep the PIA VPN ip whitelist updated given on a set of domains to whitelist.',
     long_description = long_description,
     long_description_content_type = "text/markdown",
