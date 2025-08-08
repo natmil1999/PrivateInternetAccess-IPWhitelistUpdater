@@ -2,6 +2,10 @@
 /dist/
 /build/
 /test/
-/vpn_updater.log
 /__pycache__/
 app/__pycache__/
+.idea/
+/.idea/
+/.idea/
+/pia_whitelist_updater/__pycache__/
+pia_whitelist_updater/src/__pycache__/

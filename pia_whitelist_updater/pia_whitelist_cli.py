@@ -1,5 +1,5 @@
 import click
-from app.pia_whitelist_updater import remove_domains as remove_domain_func, add_domains as add_domain_func, list_domain_or_ip, start_whitelist_updaters
+from pia_whitelist_updater.src.pia_domain_to_ip_updater import remove_domains as remove_domain_func, add_domains as add_domain_func, list_domain_or_ip, start_whitelist_updater
 
 @click.group()
 def cli():
@@ -32,4 +32,4 @@ def list_ips():
 @cli.command()
 @click.option('--interval', type=int, help='The number of seconds to wait between updating the set of ips whitelisted for the given domains.', default=15)
 def start(interval: int):
-    click.echo(start_whitelist_updaters(interval))
+    click.echo(start_whitelist_updater(interval))
