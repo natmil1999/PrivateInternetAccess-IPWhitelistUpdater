@@ -1,0 +1,7 @@
+/pia_whitelist_updater.egg-info/
+/dist/
+/build/
+/test/
+/vpn_updater.log
+/__pycache__/
+app/__pycache__/
